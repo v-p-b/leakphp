@@ -14,6 +14,6 @@ if(isset($_POST["submit"])) {
     $outid=uniqid();
 	$outname=$outid.'.png';
 	$image->writeToFile($target_dir.$outname);
-	header("Location: show.php?id=$outid");
+    echo '<html><head><meta http-equiv="refresh" content="2;url=show.php?id=$outid" /></head></html>';
 }
 ?>
