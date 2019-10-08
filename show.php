@@ -1,5 +1,5 @@
 <?php
-$target_dir="/app/instance/uploads/"
+$target_dir="/app/instance/uploads/";
 
 header("Content-Type: image/png");
 
